@@ -7,7 +7,7 @@ import sys
 #https://raw.githubusercontent.com/bevan654/bevangaming/main/version.txt
 
 
-CURRENT_VERSION = '0.0.1'
+CURRENT_VERSION = '0.0.2'
 
 
 
