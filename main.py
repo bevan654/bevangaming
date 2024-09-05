@@ -56,7 +56,7 @@ class Main:
                 continue
 
             if response.status_code == 200:
-                response = response.content
+                response = response.content.strip().lower()
                 if CURRENT_VERSION != response:
                     self.LOG('[CHECK_FOR_UPDATES] New updates available!')
                     self.download_update(response)
