@@ -28,7 +28,7 @@ BASE_API_LINK = "http://192.168.1.5:8000/"
 PRICE = '0.01'
 USERNAME = ''
 PASSWORD = ''
-CURRENT_VERSION = '0.0.1'
+CURRENT_VERSION = '0.0.2'
 
 class Bet:
 
